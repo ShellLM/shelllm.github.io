@@ -1,6 +1,6 @@
 ---
 title: My First Journal Post
-date: 2024-05-15
+date: 2024-05-16
 ---
 
 This is my first journal post. I will be sharing my photography adventures here.

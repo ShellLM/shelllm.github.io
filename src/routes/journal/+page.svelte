@@ -1,15 +1,15 @@
-<script context="module">
-  export async function load({ fetch }) {
-    const response = await fetch(`/journal.json`);
-    const posts = await response.json();
-    return {
-      props: { posts }
+<script lang="ts">
+  export let data;
+
+  interface Post {
+    path: string;
+    meta: {
+      title: string;
+      date: string;
     };
   }
-</script>
-
-<script>
-  export let posts;
+  
+  let posts: Post[] = data.posts;
 </script>
 
 <h1>Journal</h1>
@@ -20,5 +20,5 @@
       <a href={post.path}>{post.meta.title}</a>
       <p>Posted on {new Date(post.meta.date).toLocaleDateString()}</p>
     </li>
-  {/each}
+  {/each}  
 </ul>
