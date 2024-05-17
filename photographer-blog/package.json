@@ -12,10 +12,7 @@
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-terser": "^0.4.0",
-<<<<<<< HEAD
-=======
     "gh-pages": "^6.1.1",
->>>>>>> 269354fec5ab094aadb62dadb6b54b1e14425e4a
     "rollup": "^3.15.0",
     "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-livereload": "^2.0.0",
